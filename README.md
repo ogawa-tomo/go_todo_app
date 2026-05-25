@@ -1,2 +1,3 @@
 # go_todo_app
-todo web application with auth by go
+「詳解Go言語Webアプリケーション開発」ハンズオンの写経
+https://www.c-r.com/book/detail/1462
