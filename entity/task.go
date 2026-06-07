@@ -1,0 +1,23 @@
+package entity
+
+import "time"
+
+type (
+	TaskID     int64
+	TaskStatus string
+)
+
+const (
+	TaskStatusToDo  TaskStatus = "todo"
+	TaskStatusDoing TaskStatus = "doing"
+	TaskStatusDone  TaskStatus = "done"
+)
+
+type Task struct {
+	ID      TaskID     `json:"id"`
+	Title   string     `json:"title"`
+	Status  TaskStatus `json:"status"`
+	Created time.Time  `json:"created"`
+}
+
+type Tasks []*Task
