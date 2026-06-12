@@ -3,6 +3,7 @@ module github.com/ogawa-tomo/go_todo_app
 go 1.25.7
 
 require (
+	github.com/DATA-DOG/go-sqlmock v1.5.2 // indirect
 	github.com/caarlos0/env/v6 v6.10.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
 	github.com/go-chi/chi/v5 v5.3.0 // indirect
